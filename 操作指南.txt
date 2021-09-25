@@ -1,10 +1,6 @@
-git eemote add origin https://github.com/cangerjun/JP-Word.git
+git eemote add origin https://github.com/cangerjun/JP-Word.git 抓取仓库文件
 git add .        //把本地修改的文件加到暂存区
-添加要提交的文档到缓存
 git commit -m "更新文件"
 git push origin master
 将缓存中的文件全部提交到远程仓库当中
 
-那么如果我们新增了文件要存贮怎么半呢，
-只需要将其加到暂存区再执行git stash即可，
-即先执行git add . 再使用git stash 
